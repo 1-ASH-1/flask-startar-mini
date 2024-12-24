@@ -1,5 +1,5 @@
 from flask import Flask, render_template,request,redirect,send_file,make_response,redirect
-
+from helpers import *
 
 
 
@@ -14,4 +14,4 @@ def on_index():
 
 
 
-app.run(debug=1,port=5000,host="0.0.0.0")
+app.run(debug=1,port=5000)
